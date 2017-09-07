@@ -1,4 +1,4 @@
-body{
+body {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -60,7 +60,6 @@ p {
   flex-direction: column;
   height: 80%;
   /*line-height: .2px;*/
-
 }
 
 .workout-icon {
@@ -81,7 +80,6 @@ p {
 }
 
 /*images and icons*/
-
 
 .gear-icon {
   height: 25px;
@@ -113,6 +111,152 @@ p {
   width: 150px;
 }
 
+@media (max-width: 400px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
 
+  header {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
 
+  h1 {
+    color: #c21e5c;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+    height: 40px;
+    padding-right: 10px;
+    width: 100%;
+    margin: 0;
+  }
 
+  .icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+  }
+
+  .main {
+    background-color: #f0f1f2;
+    flex-direction: column;
+  }
+
+  .left-half {
+    width: 100%;
+  }
+
+  .recent-workouts {
+    color: #c21e5c;
+  }
+
+  .recent-row {
+    background-color: #f0f1f2;
+  }
+
+  .workout-card {
+    background-color: #f0f1f2;
+  }
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  .arrow-icon {
+    height: 30px;
+    width: 30px;
+  }
+
+  .stats {
+    background-color: #f0f1f2;
+    align-items: space-between;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+  }
+
+  .stats h4 {
+    font-size: 12px;
+  }
+
+  .right-half {
+    width: 100%;
+  }
+
+  .graph {
+    margin-left: 30px;
+    width: 150px;
+  }
+
+  .left-half {
+    height: 100%;
+  }
+
+  .stats p {
+    font-size: 10px;
+    margin-top: 30px;
+  }
+
+  .graph-section {
+    margin-right: 0;
+  }
+
+  .active-card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: flex-start;
+    align-items: space-around;
+  }
+
+  .calendar-header,
+  .calendar {
+    display: none;
+  }
+
+  .goals {
+    background-color: #f0f1f2;
+    display: flex;
+    justify-content: row;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .goals-header {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+
+  .circle-graph,
+  .goal-text {
+    width: 45%;
+  }
+
+  .bottom-row {
+    border-bottom: 3px solid #c21e5c;
+  }
+
+  .goals h5 {
+    font-size: 16px;
+  }
+
+  .goals p {
+    font-size: 12px;
+  }
+}
